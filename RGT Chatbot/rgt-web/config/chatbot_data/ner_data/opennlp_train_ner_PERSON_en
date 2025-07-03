@@ -1,0 +1,49 @@
+ i  am  <START:PERSON> emma <END> 
+ this  is  <START:PERSON> john <END> 
+ my  name  is  <START:PERSON> john <END> 
+ can  you  call  <START:PERSON> emma <END> 
+ <START:PERSON> michael <END>  is  my  friend 
+ i  just  met  <START:PERSON> daniel <END> 
+ please  meet  my  brother  SEP  <START:PERSON> thomas <END> 
+ i  spoke  to  <START:PERSON> olivia <END>  today 
+ have  you  seen  <START:PERSON> jessica <END> 
+ <START:PERSON> james <END>  is  arriving  soon 
+ <START:PERSON> william <END>  is  a  great  musician 
+ you  should  meet  my  cousin  SEP  <START:PERSON> sophia <END> 
+ is  <START:PERSON> sarah <END>  coming  to  the  party 
+ my  full  name  is  <START:PERSON> david <END>  <START:PERSON> miller <END> 
+ <START:PERSON> lucas <END>  will  be  there  at  5  pm 
+ i  am  mia  <START:PERSON> SEP <END>  nice  to  meet  you 
+ <START:PERSON> ethan <END>  and  <START:PERSON> benjamin <END>  are  best  friends 
+ let  me  introduce  you  to  <START:PERSON> isabella <END> 
+ i  sent  a  message  to  <START:PERSON> harper <END> 
+ <START:PERSON> charlotte <END>  is  waiting  for  us 
+ i  heard  from  <START:PERSON> mason <END>  yesterday 
+ <START:PERSON> ella <END>  just  started  a  new  job 
+ <START:PERSON> henry <END>  and  <START:PERSON> grace <END>  are  on  their  way 
+ i  want  to  meet  <START:PERSON> jack <END> 
+ <START:PERSON> chloe <END>  is  a  great  photographer 
+ do  you  know  where  <START:PERSON> ava <END>  is 
+ i’ll  introduce  you  to  <START:PERSON> liam <END> 
+ <START:PERSON> elijah <END>  works  at  the  hospital 
+ i  need  to  talk  to  <START:PERSON> noah <END> 
+ have  you  heard  about  <START:PERSON> emily’s <END>  new  job 
+ meet  my  colleague  SEP  <START:PERSON> andrew <END>  <START:PERSON> carter <END> 
+ i  just  spoke  with  <START:PERSON> natalie <END>  <START:PERSON> brown <END> 
+ i’d  love  to  meet  <START:PERSON> madison <END>  someday 
+ <START:PERSON> jonathan <END>  and  <START:PERSON> leah <END>  are  colleagues 
+ <START:PERSON> adam <END>  told  me  about  the  event 
+ is  <START:PERSON> nora <END>  coming  for  dinner 
+ <START:PERSON> aaron <END>  and  <START:PERSON> sophia <END>  work  together 
+ i  recently  spoke  with  <START:PERSON> julian <END> 
+ <START:PERSON> caroline <END>  is  an  excellent  dancer 
+ i’d  like  you  to  meet  <START:PERSON> isabel <END> 
+ <START:PERSON> leo <END>  has  a  great  sense  of  humor 
+ my  professor  SEP  <START:PERSON> dr <END>  <START:PERSON> robert <END>  SEP  is  very  strict 
+ <START:PERSON> michelle <END>  is  visiting  next  week 
+ i’m  having  coffee  with  <START:PERSON> oscar <END>  later 
+ <START:PERSON> evelyn <END>  was  my  childhood  friend 
+ is  <START:PERSON> caleb <END>  attending  the  meeting 
+ <START:PERSON> ruby <END>  and  <START:PERSON> ethan <END>  are  best  friends 
+ hello  SEP  my  name  is  <START:PERSON> padma <END> 
+ hello  SEP  my  name  is  <START:PERSON> akshay <END> 

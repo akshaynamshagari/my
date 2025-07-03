@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(
+			function() {
+				let id = Cookies.getJSON("id")
+				let rgtToken = Cookies.getJSON("rgtToken");
+				let rgtAuthType = Cookies.getJSON("rgtAuthType");
+				console.log(id);
+				console.log(rgtToken);
+				console.log(rgtAuthType);
+				console.log("id=" + id + ",rgtToken=" + rgtToken
+						+ ",rgtAuthType=" + rgtAuthType);
+			});
+</script>
+</head>
+<body>
+	<div class="container text-center">
+		<div>
+			<h2>Login</h2>
+			<br />
+		</div>
+	</div>
+</body>
+</html>

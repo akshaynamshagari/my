@@ -1,0 +1,51 @@
+I am Emma --- O O PERSON
+this is John --- O O PERSON
+My name is John --- O O O PERSON
+Can you call Emma? --- O O O PERSON
+Michael is my friend. --- PERSON O O O
+I just met Daniel. --- O O O PERSON
+Please meet my brother, Thomas. --- O O O O O PERSON
+I spoke to Olivia today. --- O O O PERSON O
+Have you seen Jessica? --- O O O PERSON
+James is arriving soon. --- PERSON O O O
+William is a great musician. --- PERSON O O O O
+You should meet my cousin, Sophia. --- O O O O O O PERSON
+Is Sarah coming to the party? --- O PERSON O O O O
+My full name is David Miller. --- O O O O PERSON PERSON
+Lucas will be there at 5 PM. --- PERSON O O O O O O
+I am Mia, nice to meet you. --- O O O PERSON O O O O
+Ethan and Benjamin are best friends. --- PERSON O PERSON O O O  
+Let me introduce you to Isabella. --- O O O O O PERSON
+I sent a message to Harper. --- O O O O O PERSON
+Charlotte is waiting for us. --- PERSON O O O O
+I heard from Mason yesterday. --- O O O PERSON O
+Ella just started a new job. --- PERSON O O O O O
+Henry and Grace are on their way. --- PERSON O PERSON O O O O
+I want to meet Jack. --- O O O O PERSON
+Chloe is a great photographer. --- PERSON O O O O
+Do you know where Ava is? --- O O O O PERSON O
+I’ll introduce you to Liam. --- O O O O PERSON
+Elijah works at the hospital. --- PERSON O O O O
+I need to talk to Noah. --- O O O O O PERSON
+Have you heard about Emily’s new job? --- O O O O PERSON O O
+Meet my colleague, Andrew Carter. --- O O O O PERSON PERSON
+I just spoke with Natalie Brown. --- O O O O PERSON PERSON
+I’d love to meet Madison someday. --- O O O O PERSON O
+Jonathan and Leah are colleagues. --- PERSON O PERSON O O
+Adam told me about the event. --- PERSON O O O O O
+Is Nora coming for dinner? --- O PERSON O O O
+Aaron and Sophia work together. --- PERSON O PERSON O O
+I recently spoke with Julian. --- O O O O PERSON
+Caroline is an excellent dancer. --- PERSON O O O O
+I’d like you to meet Isabel. --- O O O O O PERSON
+Leo has a great sense of humor. --- PERSON O O O O O O
+My professor, Dr. Robert, is very strict. --- O O O PERSON PERSON O O O O
+Michelle is visiting next week. --- PERSON O O O O
+I’m having coffee with Oscar later. --- O O O O PERSON O
+Evelyn was my childhood friend. --- PERSON O O O O
+Is Caleb attending the meeting? --- O PERSON O O O
+Ruby and Ethan are best friends. --- PERSON O PERSON O O O
+Hello, my name is Padma --- O O O O O PERSON
+Hello, my name is Akshay --- O O O O O PERSON
+What does Rgt do? --- O O ORG O
+Tell me about your Rgt --- O O O O ORG

@@ -1,0 +1,6 @@
+Intent Text
+services What services do you offer?
+services Can you tell me about your solutions?
+services I want to learn more about what your company does.
+services Do you provide software development?
+services What industries do you serve?

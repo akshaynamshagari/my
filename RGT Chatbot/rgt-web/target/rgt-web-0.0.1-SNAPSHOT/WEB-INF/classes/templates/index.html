@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>RGT - IT Services | Salesforce Solutions | QA Solutions | Ratna Global Technologies</title>
+
+	<!-- Favicons -->
+	<link href="https://www.ratnaglobaltech.com/assets/img/favicon.ico" rel="icon">
+	<link href="https://www.ratnaglobaltech.com/assets/img/logo.webp" rel="apple-touch-icon">
+	<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+
+<body>
+	<div class="container text-center">
+		<div>
+			<h2>Please Login</h2>
+			<br />
+		</div>
+		<div>
+			<h4><a th:href="@{/oauth2/authorization/facebook}">Login with Facebook</a></h4>
+		</div>
+		<div>
+			<h4><a th:href="@{/oauth2/authorization/google}">Login with Google</a></h4>
+		</div>
+		<div>
+			<h4><a th:href="@{/oauth2/authorization/azure}">Login with azure</a></h4>
+		</div>
+		<div>
+			<p>OR</p>
+		</div>
+		<iframe id="chatbot-iframe" src="" title="Chatbot Interface"></iframe>
+	</div>
+</body>
+
+<script th:src="@{/js/Script.js}"></script>
+
+</html>

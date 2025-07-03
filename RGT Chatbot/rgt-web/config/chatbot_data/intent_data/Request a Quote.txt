@@ -1,0 +1,6 @@
+Intent Text
+Request a Quote I like to get a quote.
+Request a Quote Can I have a pricing estimate?
+Request a Quote How much would your services cost?
+Request a Quote I want to request a quotation.
+Request a Quote What's the cost for a project?

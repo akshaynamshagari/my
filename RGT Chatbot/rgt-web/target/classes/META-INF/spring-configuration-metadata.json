@@ -1,0 +1,241 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.letmecall.rgt.config.AppProperties",
+      "sourceType": "com.letmecall.rgt.config.AppProperties"
+    },
+    {
+      "name": "app.auth",
+      "type": "com.letmecall.rgt.config.AppProperties$Auth",
+      "sourceType": "com.letmecall.rgt.config.AppProperties",
+      "sourceMethod": "getAuth()"
+    },
+    {
+      "name": "app.oauth2",
+      "type": "com.letmecall.rgt.config.AppProperties$OAuth2",
+      "sourceType": "com.letmecall.rgt.config.AppProperties",
+      "sourceMethod": "getOauth2()"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.letmecall.rgt.config.DBConfiguration",
+      "sourceMethod": "customDataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "admin.default.time.zone",
+      "type": "java.lang.String",
+      "description": "A description for 'admin.default.time.zone'"
+    },
+    {
+      "name": "admin.email_lst",
+      "type": "java.lang.String",
+      "description": "A description for 'admin.email_lst'"
+    },
+    {
+      "name": "app.auth.token-expiration-msec",
+      "type": "java.lang.Long",
+      "sourceType": "com.letmecall.rgt.config.AppProperties$Auth",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.auth.token-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.letmecall.rgt.config.AppProperties$Auth"
+    },
+    {
+      "name": "app.auth.tokenExpirationMsec",
+      "type": "java.lang.String",
+      "description": "A description for 'app.auth.tokenExpirationMsec'"
+    },
+    {
+      "name": "app.auth.tokenSecret",
+      "type": "java.lang.String",
+      "description": "A description for 'app.auth.tokenSecret'"
+    },
+    {
+      "name": "app.oauth2.authorized-redirect-uris",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.letmecall.rgt.config.AppProperties$OAuth2"
+    },
+    {
+      "name": "app.oauth2.authorizedRedirectUris",
+      "type": "java.lang.String",
+      "description": "A description for 'app.oauth2.authorizedRedirectUris'"
+    },
+    {
+      "name": "com.letmecall.nextdoor.rest.user.token.issuer",
+      "type": "java.lang.String",
+      "description": "A description for 'com.letmecall.nextdoor.rest.user.token.issuer'"
+    },
+    {
+      "name": "com.letmecall.nextdoor.token.expiry.days",
+      "type": "java.lang.String",
+      "description": "A description for 'com.letmecall.nextdoor.token.expiry.days'"
+    },
+    {
+      "name": "com.letmecall.nextdoor.token.expiry.time.millis",
+      "type": "java.lang.String",
+      "description": "A description for 'com.letmecall.nextdoor.token.expiry.time.millis'"
+    },
+    {
+      "name": "customer.notification.changepassword.otp.email.subject",
+      "type": "java.lang.String",
+      "description": "A description for 'customer.notification.changepassword.otp.email.subject'"
+    },
+    {
+      "name": "customer.notification.forgotpassword.otp.email.subject",
+      "type": "java.lang.String",
+      "description": "A description for 'customer.notification.forgotpassword.otp.email.subject'"
+    },
+    {
+      "name": "customer.notification.invitemember.email.subject",
+      "type": "java.lang.String",
+      "description": "A description for 'customer.notification.invitemember.email.subject'"
+    },
+    {
+      "name": "customer.notification.login.otp.email.subject",
+      "type": "java.lang.String",
+      "description": "A description for 'customer.notification.login.otp.email.subject'"
+    },
+    {
+      "name": "email.template.logo.image",
+      "type": "java.lang.String",
+      "description": "A description for 'email.template.logo.image'"
+    },
+    {
+      "name": "entitymanager.packagesToScan",
+      "type": "java.lang.String",
+      "description": "A description for 'entitymanager.packagesToScan'"
+    },
+    {
+      "name": "invite.email.background.image",
+      "type": "java.lang.String",
+      "description": "A description for 'invite.email.background.image'"
+    },
+    {
+      "name": "invite.member.url",
+      "type": "java.lang.String",
+      "description": "A description for 'invite.member.url'"
+    },
+    {
+      "name": "notification.changepassword.otp.text",
+      "type": "java.lang.String",
+      "description": "A description for 'notification.changepassword.otp.text'"
+    },
+    {
+      "name": "notification.forgotpassword.otp.text",
+      "type": "java.lang.String",
+      "description": "A description for 'notification.forgotpassword.otp.text'"
+    },
+    {
+      "name": "notification.login.otp.text",
+      "type": "java.lang.String",
+      "description": "A description for 'notification.login.otp.text'"
+    },
+    {
+      "name": "notification.mail.bcc",
+      "type": "java.lang.String",
+      "description": "A description for 'notification.mail.bcc'"
+    },
+    {
+      "name": "notification.mail.fromAddress",
+      "type": "java.lang.String",
+      "description": "A description for 'notification.mail.fromAddress'"
+    },
+    {
+      "name": "notification.mail.fromAddress.displayName",
+      "type": "java.lang.String",
+      "description": "A description for 'notification.mail.fromAddress.displayName'"
+    },
+    {
+      "name": "otp.algorithm.salt",
+      "type": "java.lang.String",
+      "description": "A description for 'otp.algorithm.salt'"
+    },
+    {
+      "name": "otp.login.expire.minutes",
+      "type": "java.lang.String",
+      "description": "A description for 'otp.login.expire.minutes'"
+    },
+    {
+      "name": "otp.number.prefix",
+      "type": "java.lang.String",
+      "description": "A description for 'otp.number.prefix'"
+    },
+    {
+      "name": "otp.token.digits.generated",
+      "type": "java.lang.String",
+      "description": "A description for 'otp.token.digits.generated'"
+    },
+    {
+      "name": "rgt.implementation.environment",
+      "type": "java.lang.String",
+      "description": "A description for 'rgt.implementation.environment'"
+    },
+    {
+      "name": "rgt.role.feature",
+      "type": "java.lang.String",
+      "description": "A description for 'rgt.role.feature'"
+    },
+    {
+      "name": "rgt.server.context",
+      "type": "java.lang.String",
+      "description": "A description for 'rgt.server.context'"
+    },
+    {
+      "name": "spring.datasource.jdbcUrl",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.jdbcUrl'"
+    },
+    {
+      "name": "spring.velocity.cache",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.cache'"
+    },
+    {
+      "name": "spring.velocity.charset",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.charset'"
+    },
+    {
+      "name": "spring.velocity.check-template-location",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.check-template-location'"
+    },
+    {
+      "name": "spring.velocity.content-type",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.content-type'"
+    },
+    {
+      "name": "spring.velocity.prefix",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.prefix'"
+    },
+    {
+      "name": "spring.velocity.properties.input.encoding",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.properties.input.encoding'"
+    },
+    {
+      "name": "spring.velocity.properties.output.encoding",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.properties.output.encoding'"
+    },
+    {
+      "name": "spring.velocity.resourceLoaderPath",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.resourceLoaderPath'"
+    },
+    {
+      "name": "spring.velocity.suffix",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.velocity.suffix'"
+    }
+  ],
+  "hints": []
+}

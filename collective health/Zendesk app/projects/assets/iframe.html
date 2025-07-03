@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!--   See Using Zendesk Garden:
+    https://developer.zendesk.com/apps/docs/developer-guide/setup#using-zendesk-garden
+    https://garden.zendesk.com/css-components/bedrock/
+    https://garden.zendesk.com/css-components/utilities/typography/
+   -->
+</head>
+
+<body>
+  <h2 class="u-semibold u-fs-xl">Zendesk poc</h2>
+  <div id="my-ticket-id-display"></div>
+  <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+
+  <!-- Comment Section -->
+  <div>
+    <textarea id="comment-text" rows="4" cols="50" placeholder="Add a comment..."></textarea>
+  </div>
+  <br>
+  <button id="submit-comment-btn">Submit Comment</button>
+
+  <!-- <script id="requester-template" type="text/x-handlebars-template">
+    <table>
+    <tr>
+      <td>Customer:</td>
+      <td>{{name}}</td>
+    </tr>
+    <tr>
+      <td>Tags:</td>
+      <td>{{#each tags}}{{this}} {{/each}}</td>
+    </tr>
+    <tr>
+      <td>Added:</td>
+      <td>{{created_at}}</td>
+    </tr>
+    <tr>
+      <td>Last signed in:</td>
+      <td>{{last_login_at}}</td>
+    </tr>
+    </table>
+</script> -->
+
+  <script>
+    // Initialise Apps framework client. See also:
+    // https://developer.zendesk.com/apps/docs/developer-guide/getting_started
+    var client = ZAFClient.init();
+    client.invoke('resize', { width: '100%', height: '200px' });
+
+    // function showInfo() {
+    //   var requester_data = {
+    //     'name': 'Jane Doe',
+    //     'tags': ['tag1', 'tag2'],
+    //     'created_at': 'November 20, 2014',
+    //     'last_login_at': 'June 27, 2016'
+    //   };
+
+    //   var source = document.getElementById("requester-template").innerHTML;
+    //   var template = Handlebars.compile(source);
+    //   var html = template(requester_data);
+    //   document.getElementById("content").innerHTML = html;
+    // }
+
+    // Get the ticket ID
+    // client.context().then(function (context) {
+    //   // showInfo();
+    //   console.log(context);
+
+    //   document.getElementById("my-ticket-id-display").innerHTML = context.ticketId
+
+
+    //   // Comment Submission Handler
+    //   document.getElementById("submit-comment-btn").addEventListener("click", function () {
+    //     var commentText = document.getElementById("comment-text").value.trim();
+
+    //     if (commentText) {
+    //       var settings = {
+    //         url: 'https://rgt7048.zendesk.com/api/v2/tickets/' + context.ticketId + '/comments.json',
+    //         type: 'POST',
+    //         dataType: 'json',
+    //         data: JSON.stringify({
+    //           "ticket": {
+    //             "comment": {
+    //               "body": commentText
+    //             }
+    //           }
+    //         }),
+    //         contentType: 'application/json',
+    //       };
+
+    //       client.request(settings).then(function (data) {
+    //         console.log('Comment submitted:', data);
+    //         alert('Comment submitted successfully!');
+    //         document.getElementById("comment-text").value = ''; // Clear the input
+    //       }, function (response) {
+    //         console.error('Error submitting comment:', response);
+    //         alert('Error submitting comment!');
+    //       });
+    //     } else {
+    //       alert('Please enter a comment.');
+    //     }
+    //   });
+
+
+
+    client.context().then(function (context) {
+      var settings = {
+        url: 'https://rgt7048.zendesk.com/api/v2/tickets/' + context.ticketId + '.json',
+        type: 'GET',
+        dataType: 'json',
+      };
+
+      client.request(settings).then(
+        function (data) {
+          console.log(data);
+        },
+        function (response) {
+          console.error(response);
+        }
+      );
+    });
+      
+
+
+    //   /*
+    //     {
+    //       "instanceGuid": "7712c893-bec7-4e00-9db0-87fbb0c12914",
+    //       "product": "support",
+    //       "account": {
+    //         "subdomain": "mondocam"
+    //       },
+    //       "location": 'ticket_sidebar',
+    //       "ticketId": 1234
+    //     }
+    //   */
+    // });
+
+
+
+    // client.get('ticket').then(function (data) {
+    //   console.log(data['ticket.id']); // something like 29043265
+
+    //   var settings = {
+    //     url: 'https://rgt7048.zendesk.com/api/v2/tickets/' + data['ticket.id'] + '.json',
+    //     type: 'GET',
+    //     dataType: 'json',
+    //   };
+
+    //   client.request(settings).then(
+    //     function (data) {
+    //       console.log(data);
+    //     },
+    //     function (response) {
+    //       console.error(response);
+    //     }
+    //   );
+
+    // });
+
+
+
+
+
+  </script>
+
+
+</body>
+
+</html>

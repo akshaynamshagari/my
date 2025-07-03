@@ -1,0 +1,67 @@
+[{
+        "intentName": "greetings",
+        "patterns": [
+            "hello",
+            "hii",
+            "hey"
+        ],
+        "responses": [
+            {
+                "type": "combined",
+                "content": {
+                    "text": "Hello!, How can I assist you?",
+                    "image": null,
+                    "link": null,
+                    "document": null
+                }
+            }
+        ],
+    "language": "english"
+    },
+	{
+	  "intentName": "farewell",
+	  "patterns": [
+	    "bye",
+	    "goodbye",
+	    "see you later",
+	    "catch you later"
+	  ],
+	  "responses": [
+	    {
+	      "type": "combined",
+	      "content": {
+	        "text": "Goodbye! Have a great day.",
+	        "image": null,
+	        "link": null,
+	        "document": null
+	      }
+	    }
+	  ],
+	  "language": "english"
+	}, 
+	{
+    "intentName": "unknown",
+    "patterns": [
+      "gibberish input",
+      "random sentence with no meaning",
+      "flibberty jibbity zorp",
+      "asdkjh kjhasd", 
+      "xyz",
+      "abc",
+      "123"
+    ],
+    "responses": [
+      {
+        "type": "combined",
+        "content": {
+          "text": "I'm sorry, I didn't understand that. Could you please rephrase your question?",
+          "image": null,
+          "link": null,
+          "document": null
+        }
+      }
+    ],
+    "language": "english"
+  }
+
+]
